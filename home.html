@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoPoints</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h2>🌱 EcoPoints</h2>
+    <button onclick="logout()">Sair</button>
+</header>
+
+<main>
+    <section class="card">
+        <h3>Seus Pontos</h3>
+        <p class="points">120 pts</p>
+    </section>
+
+    <section class="card">
+        <h3>Como funciona</h3>
+        <p>Escaneie o QR Code na lixeira, descarte corretamente e ganhe pontos.</p>
+    </section>
+
+    <section class="card">
+        <h3>Recompensas</h3>
+        <ul>
+            <li>🎓 Desconto na faculdade</li>
+            <li>☕ Cupom em lanchonetes</li>
+            <li>🎁 Benefícios locais</li>
+        </ul>
+    </section>
+    
+</main>
+
+
+<section class="footer-img">
+    <img src="lixeira.png" alt="Lixeira com QR Code">
+</section>
+
+<script>
+function logout(){
+    window.location.href = "index.html";
+}
+</script>
+
+</body>
+</html>
